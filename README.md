@@ -9,10 +9,10 @@ A program written by p5.js, generating fireworks with special shapes, such as ch
   * 烟花各种形状的实现
   
 ## 代码架构
- * home.html 这个是访问的主页，运行时直接用浏览器打开就行，推荐Edge和Chrome；
- * firework.js 利用粒子系统实现的烟花
+ * home.html 这个是访问的主页，运行时直接用浏览器打开即可，推荐Edge和Chrome
+ * firework.js 利用粒子系统实现的烟花，设置烟花粒子大小、初始速度、烟花多少等等
  * text.js 文本处理和获得文字的像素点数组
- * sketch.js 绘图
+ * sketch.js 绘图、设置要绽放的文字
  * music1.mp3 背景音乐
 
 ## 原理解析
