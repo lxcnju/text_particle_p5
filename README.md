@@ -25,3 +25,7 @@ A program written by p5.js, generating fireworks with special shapes, such as ch
    * 圆环：速度方向是圆周哥哥方向，速度大小是2到5。<br>
    * 心形：按照心形线公式（x = r * cos(theta) * (1 - cos(theta)), y = r * sin(theta) * (1 - cos(theta))）产生(x,y)点对作为速度（大小和方向），r取值为0到5即为填充的心，r取3到5则是心形的环。<br>
    * 文字：先在屏幕上利用text绘制白底红字，然后获取屏幕图像的pixel矩阵，将红色的像素点位置挑选出来，即可获得文字的像素点位置的数组，将烟花粒子速度根据这个数组初始化即可。<br>
+   
+## 图片展示
+![文字烟花](https://github.com/lxcnju/text_particle_p5/blob/master/pic1.png)
+![蝴蝶形状烟花](https://github.com/lxcnju/text_particle_p5/blob/master/pic2.png)
